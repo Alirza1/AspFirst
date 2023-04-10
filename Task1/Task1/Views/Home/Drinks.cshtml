@@ -1,0 +1,19 @@
+﻿    <!DOCTYPE html>
+    <html>
+        <head>
+
+        </head>
+        <body>
+    @foreach (var item in Model)
+    {
+        <div>
+            <h1>Firstname: @item.Name</h1>
+            <h1>Price: @item.Price azn</h1>
+            <h1>Category: @item.Category</h1>
+            <div>
+                <span>Drink ID: @item.Id</span>
+            </div>
+        </div>
+    }
+        </body>
+    </html>
